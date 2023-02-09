@@ -1,0 +1,65 @@
+:root{
+    --cor-primaria: #bb0303 ;
+    --cor-fonte: #4c4c4c;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 64px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+header nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-fonte)
+}
+
+a:hover{
+    color: var(--cor-primaria);
+}
+
+.dropdown-header button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.dropdown-header-content{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+}
+
+.dropdown-header-content a{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.dropdown-header:hover .dropdown-header-content{
+    display: flex;
+}
+
+main{
+    margin-top: 64px;
+}
