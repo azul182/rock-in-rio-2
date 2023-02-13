@@ -26,6 +26,7 @@ header nav{
     width: 40%;
     display: flex;
     justify-content: space-around;
+    padding-left: 9%;
 }
 
 header nav a{
@@ -68,10 +69,11 @@ a:hover{
 }
 
 .dropdown-header-content a{
+    color: var(--cor-fonte);
     width: 100%;
     text-align: center;
     padding: 10px 20px;
-    background-color: #ffffff;
+    background-color: #cacaca1f;
 }
 
 .dropdown-header:hover .dropdown-header-content{
@@ -100,5 +102,52 @@ main{
 
 .frase{
     background-color: black;
+    color:var(--cor-fonte) ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.svg-aspas path{
+    fill: var(--cor-primaria);
+}
+
+.svg-aspas{
+    margin-top: 80px;
+}
+
+.frase h2{
+    width: 40%;
+   font-weight: 100;
+   text-align: center;
+   margin-top: 40px;
+   border-bottom: var(--cor-primaria) 2px dashed;
+    padding-bottom: 16px;
+}
+
+.frase h3{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.frase h4{
+    margin-top: 20px;
     color: var(--cor-primaria);
+}
+
+footer{
+    display: flex;
+    height: 64px;
+    align-items: center;
+}
+
+.social-media-container{
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--cor-fonte);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
 }
