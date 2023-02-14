@@ -4,7 +4,7 @@
 }
 
 .line-up{
-    --cor-primaria:#ff00ff;
+    --cor-primaria:#054EF2
 }
 
 *{
@@ -15,6 +15,7 @@
 }
 body{
     background-color: black;
+    position: relative;
 }
 header{
     width: 100%;
@@ -104,6 +105,7 @@ a:hover{
 
 main{
     margin-top: 64px;
+    padding-bottom: 100px;
 }
 
 .welcome{
@@ -184,11 +186,61 @@ footer{
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
-    justify-content: center;
+    align-items: center;
     display: flex;
+    flex-direction: column;
 }
 
 .lineup-section h1{
     color: var(--cor-primaria);
-    margin-top: 100px;
+    margin-top: 260px;
+    font-weight: 100;
+    font-size: 40px;
+    opacity: 0.9;
 }
+
+.lineup-section button{
+    color: var(--cor-primaria);
+    padding: 8px 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.lineup-section button:hover{
+    background: #00000030;
+}
+
+.lineup-section button svg{
+    margin-left: 8px;
+    fill: var(--cor-primaria);
+}
+
+.lineup-section .data-content{
+    justify-content: space-between;
+    width: 35%;
+    margin-top: 20px;
+    
+}
+
+.hide{
+    display: none;
+
+}
+
+.lineup-section .data-content a{
+    background-color: rgba(0, 0, 0, 0.562);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.lineup-section .data-content a:hover{
+    background-color: white;
+}
+

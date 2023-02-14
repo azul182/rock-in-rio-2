@@ -1,60 +1,78 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Rock'n Cock</title>
-    <link rel="shortcut icon" href="imgs/logo.ico" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Rock'n Cock</title>
+  <link rel="shortcut icon" href="imgs/logo.ico" type="image/x-icon">
+  <script src="script.js" defer></script>
 </head>
 
 <body class="line-up">
-    <header>
-        <img src="imgs/logo.png" alt="logo" class="logo" />
-  
-        <nav>
-          <a href="/index.html">HOME</a>
-          <a href="">INFORMAÇÕES</a>
-          <a href="">NOTÍCIAS</a>
-        </nav>
-  
-        <div class="dropdown-header">
-          <button>EXPLORE</button>
-          <div class="dropdown-header-content">
-            <a href="/index.html">LINE UP</a>
-            <a href="">INFORMAÇÕES</a>
-            <a href="">NOTÍCIAS</a>
-          </div>
-        </div>
-      </header>
+  <header>
+    <img src="imgs/logo.png" alt="logo" class="logo" />
 
-      <main>
-        <section class="lineup-section">
-            <h1>LINE-UP</h1>
-        </section>
-      </main>
+    <nav>
+      <a href="/index.html">HOME</a>
+      <a href="">INFORMAÇÕES</a>
+      <a href="">NOTÍCIAS</a>
+    </nav>
 
-      <footer>
-        <div class="social-media-container">
-          <img src="imgs/facebook.png" alt="">
-        </div>
-        <div class="social-media-container">
-          <img src="/imgs/instagram.png" alt="">
-        </div>
-        <div class="social-media-container">
-          <img src="imgs/tiktok.png" alt="">
-        </div>
-        <div class="social-media-container">
-          <img src="imgs/youtube.png" alt="">
-        </div>
-        <div class="social-media-container">
-          <img src="imgs/twitter.png" alt="">
-        </div>
-        <div class="social-media-container">
-          <img src="imgs/spotify.png" alt="">
-        </div>
-      </footer>
+    <div class="dropdown-header">
+      <button>EXPLORE</button>
+      <div class="dropdown-header-content">
+        <a href="/index.html">LINE UP</a>
+        <a href="">INFORMAÇÕES</a>
+        <a href="">NOTÍCIAS</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="lineup-section">
+      <h1>LINE-UP</h1>
+      <button id="btn-data">
+        DIAS
+        <svg fill="#000000" width="20px" height="20px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+          <path d="m.153 526.146 92.168-92.299 867.767 867.636 867.636-867.636 92.429 92.299-960.065 959.935z"
+            fill-rule="evenodd" />
+        </svg>
+      </button>
+
+      <div class="data-content hide" id="data-content">
+        <a href="">09-03</a>
+        <a href="">09-03</a>
+        <a href="">09-03</a>
+        <a href="">09-03</a>
+        <a href="">09-03</a>
+        <a href="">09-03</a>
+        <a href="">09-03</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-media-container">
+      <img src="imgs/facebook.png" alt="">
+    </div>
+    <div class="social-media-container">
+      <img src="/imgs/instagram.png" alt="">
+    </div>
+    <div class="social-media-container">
+      <img src="imgs/tiktok.png" alt="">
+    </div>
+    <div class="social-media-container">
+      <img src="imgs/youtube.png" alt="">
+    </div>
+    <div class="social-media-container">
+      <img src="imgs/twitter.png" alt="">
+    </div>
+    <div class="social-media-container">
+      <img src="imgs/spotify.png" alt="">
+    </div>
+  </footer>
 </body>
 
 </html>
