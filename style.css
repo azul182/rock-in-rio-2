@@ -224,7 +224,7 @@ footer{
 
 .lineup-section .data-content{
     justify-content: space-between;
-    width: 35%;
+    width: 40%;
     margin-top: 20px;
     
 }
@@ -234,13 +234,16 @@ footer{
 
 }
 
-.lineup-section .data-content a{
+.lineup-section .data-content button{
     background-color: rgba(0, 0, 0, 0.562);
     padding: 10px;
     border-radius: 8px;
 }
 
-.lineup-section .data-content a:hover{
+.lineup-section .data-content button:hover{
     background-color: white;
 }
 
+div{
+    display: flex;
+}
